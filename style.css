@@ -107,5 +107,15 @@ nav{
 }
 .line-4{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.line-4 p{
+    font-size: 21px;
+    line-height: 21px;
+    flex-shrink: 0;
+    width:280px;
+    letter-spacing: normal;
+    text-transform: uppercase;
 }
