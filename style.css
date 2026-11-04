@@ -1,0 +1,111 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+}
+@font-face {
+    font-family: 'Poppins';
+}
+header{
+    width:100%;
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #E7CFB1;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.main h1{
+    font-size: 40vw;
+    color: #F3C77C;
+    font-family: 'Poppins';
+    line-height: 40vw;
+    margin: 0px;
+}
+.main h3{
+    font-size: 37px;
+    color: #F3C77C;
+    font-family: 'Poppins';
+    line-height: 40px;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.video-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100%
+}
+.video-con{
+    width:65vw;
+    height: 65vh;
+    border-radius: 20px;
+    overflow:hidden;
+    position: relative;   
+}
+.video-con iframe{
+    width:100%;
+    height:100%;
+    border:0;
+}
+.third-sec{
+    height: 100vh;
+    padding:100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-sec .th-con{
+    font-family: 'poppins';
+    font-size:clamp(65px,11vw,160px);
+    color: #E7CFB1;
+    font-weight: 500;
+    line-height: 0.82;
+    letter-spacing: -5px;
+}
+
+.third-sec .th-con span{
+    display: block;
+    text-transform: uppercase;
+}
+.third-sec .th-con i{
+    font-weight: 400;
+    font-style: italic;
+    text-transform: lowercase !important;
+}
+
+.line-1{
+    display: flex;
+    justify-content: start;
+}
+
+.line-3{
+    display: flex;
+    justify-content: end;
+}
+.line-4{
+    display: flex;
+    justify-content: start;
+}
